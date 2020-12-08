@@ -5,5 +5,6 @@ Course Link: https://www.coursera.org/learn/html-css-javascript-for-web-develope
 
 Module #2 Coding Assignment Solution
 
-code url:https://github.com/vikas-717/Coursera-HTML-CSS-and-Javascript-for-Web-Developers-Johns-Hopkins-University/tree/main/module2_solutions
+Code url:https://github.com/vikas-717/Coursera-HTML-CSS-and-Javascript-for-Web-Developers-Johns-Hopkins-University/tree/main/module2_solutions
+
 Hosted url:https://vikas-717.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers-Johns-Hopkins-University/module2_solutions/
