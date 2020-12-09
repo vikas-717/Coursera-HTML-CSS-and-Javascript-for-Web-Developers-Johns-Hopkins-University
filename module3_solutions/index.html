@@ -1,41 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web page</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment Solution for Module 2</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/design.css">
 </head>
 
 <body>
-    <h1>India's best cricketers</h1>
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <section class="Rohit">
-                <h2>Rohit Sharma</h2>
-                <p>
-                    Rohit Gurunath Sharma is an Indian international cricketer who plays for Mumbai in domestic cricket and captains Mumbai Indians in the Indian Premier League as a right-handed batsman and an occasional right-arm off break bowler. He is the vice-captain of the Indian national team in limited-overs formats.
-                </p>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #D2B4DE; border: 2px solid black;">
+            <a class="navbar-brand" href="#">Cricket</a>
+            <button class="navbar-toggler" style="border: black 2px solid;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="nav navbar-nav" id="nav-text">
+                    <a class="nav-item nav-link active" href="#">Rohit<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#"> <span class="hidden-md-up">Dhoni</span></a>
+                    <a class="nav-item nav-link" href="#">Kohli</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="heading-title text-center">India's best cricketers</h1>
+
+    <div class="box">
+        <div class="container item1">
+            <section>
+                <div id="Rohit">
+                    <p>Rohit Sharma</p>
+                </div>
+                <p>Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer who plays for Mumbai in domestic cricket and captains Mumbai Indians in the Indian Premier League as a right-handed batsman and an occasional right-arm off break bowler. He is the vice-captain of the Indian national team in limited-overs formats. He is one of the most decorated contemporary batsmen in the limited-overs format of the game.Outside cricket, Sharma is an active supporter of animal welfare campaigns. He is the official Rhino Ambassador for WWF-India and is a member of People for the Ethical Treatment of Animals (PETA). He has worked with PETA in its campaign to raise awareness of the plight of homeless cats and dogs in India.</p>
             </section>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <section class="Dhoni">
-                <h2>MS Dhoni</h2>
-                <p>
-                    Mahendra Singh Dhoni, is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2016 and in Test cricket from 2008 to 2014.
-                </p>
+
+        <div class="container item2">
+            <section>
+                <div id="Dhoni">
+                    <p>MS Dhoni</p>
+                </div>
+                <p>Mahendra Singh Dhoni (born 7 July 1981), is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2016 and in Test cricket from 2008 to 2014. Under his captaincy, India won the inaugural 2007 ICC World Twenty20, the 2010 and 2016 Asia Cups, the 2011 ICC Cricket World Cup and the 2013 ICC Champions Trophy. A right-handed middle-order batsman and wicket-keeper, Dhoni is one of the highest run scorers in One Day Internationals (ODIs) with more than 10,000 runs scored and is considered an effective "finisher" in limited-overs formats.He is widely regarded as one of the greatest wicket-keeper batsmen and captains in the history of the game.He was also the first wicket-keeper to effect 100 stumpings in ODI cricket.</p>
             </section>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
-            <section class="kohli">
-                <h2>Virat kohli</h2>
-                <p>
-                    Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best contemporary batsmen in the world. He plays for Royal Challengers Bangalore in the Indian Premier League, and has been the team's captain since 2013.
-                </p>
+
+        <div class="container item3">
+            <section>
+                <div id="Kohli">
+                    <p>Virat Kohli</p>
+                </div>
+                <p>Virat Kohli (born 5 November 1988) is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best contemporary batsmen in the world.He plays for Royal Challengers Bangalore in the Indian Premier League (IPL), and has been the team's captain since 2013. Since October 2017, he has been the top-ranked ODI batsman in the world and is currently 2nd in Test rankings with 886 points.Among Indian batsmen, Kohli has the best ever Test rating (937 points), ODI rating (911 points) and T20I rating (897 points).</p>
             </section>
         </div>
+
     </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
