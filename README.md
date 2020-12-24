@@ -22,3 +22,8 @@ Code url:https://github.com/vikas-717/Coursera-HTML-CSS-and-Javascript-for-Web-D
 
 Hosted url:https://vikas-717.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers-Johns-Hopkins-University/module4_solutions/
 
+Module #5 Coding Assignment Solution
+
+Code url:https://github.com/vikas-717/Coursera-HTML-CSS-and-Javascript-for-Web-Developers-Johns-Hopkins-University/tree/main/module5_solutions
+
+Hosted url:https://vikas-717.github.io/Coursera-HTML-CSS-and-Javascript-for-Web-Developers-Johns-Hopkins-University/module5_solutions/
